@@ -34,11 +34,11 @@ namespace Exercise_2
         public void ListAll()
         {
             Console.WriteLine($"Всего на парковке {Counter} автомобилей");
-            int count = 1;
+            //int count = 1;
             foreach (var item in CarList)
             {
                 Console.WriteLine(item);
-                count++;
+                //count++;
             }
             Console.ReadKey();
         }
